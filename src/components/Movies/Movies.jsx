@@ -27,7 +27,7 @@ function Movies() {
       setMovies(res.results);
     })
   }, [pageNo]);
-  
+      
   return (
     <>
       <h1>Trending Movies</h1>
