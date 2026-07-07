@@ -10,7 +10,10 @@ function WatchListCard({ item }) {
   return (
     <div className="watchlist-card">
       <div className="watchlist-card-img">
-        <img src={`https://image.tmdb.org/t/p/original/${item.poster_path}`} />
+        <img
+  src={`https://image.tmdb.org/t/p/original/${item.poster_path}`}
+  alt="Movie Poster"
+/>
       </div>
       <div>
         {item.title}

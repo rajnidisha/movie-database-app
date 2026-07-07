@@ -3,7 +3,9 @@ function Card({ item }) {
   return (
     <div className="card">
       <div className='card-img'>
-        <img src={`https://image.tmdb.org/t/p/original/${item.profile_path}`} />
+      <img src={`https://image.tmdb.org/t/p/original/${item.profile_path}`}
+  alt="Cast Member"
+/>
       </div>
       <div className='card-header'>{item.name}</div>
       <div className='card-text'>{item.character}</div>

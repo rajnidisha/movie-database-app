@@ -16,7 +16,10 @@ function Banner() {
   return (
     <div className="banner">
       <div className='banner-img'>
-        <img src={`https://image.tmdb.org/t/p/original/${film.backdrop_path}`} />
+        <img
+  src={`https://image.tmdb.org/t/p/original/${film.backdrop_path}`}
+  alt="Movie Banner"
+/>
       </div>
       <div className='banner-title'>
         {film.title}
